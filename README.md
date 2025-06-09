@@ -161,3 +161,45 @@ Waktu(s)	x1(m)		x2(m)		v1(m/s)	v2(m/s)	Energi(J)
 3. **Fleksibilitas Step Size**: Dapat disesuaikan kebutuhan akurasi
 4. **Implementasi Sederhana**: Algoritma mudah dipahami dan dimodifikasi
 5. **Konservasi Energi**: Mempertahankan sifat fisik sistem
+
+
+## Cara Menggunakan
+
+**Persyaratan:**
+
+* Compiler C (gcc, clang, atau compiler C lainnya)
+* Sistem operasi: Linux, Windows, atau macOS
+* Library matematika standar C (math.h)
+
+---
+
+### **Kompilasi dan Menjalankan**
+
+1. **Clone repositori ini**
+
+   Di halaman GitHub proyek, klik tombol **Code** yang terletak di kanan atas, lalu pilih metode yang diinginkan untuk menyalin URL. Anda dapat memilih antara HTTPS, SSH, atau GitHub CLI. Gunakan URL yang ditampilkan untuk meng-clone repositori. Untuk HTTPS, URL-nya adalah:
+
+   ```bash
+   git clone https://github.com/audynatalie/ProyekUASKomnum.git
+   cd ProyekUASKomnum
+   ```
+
+2. **Kompilasi program**
+
+   Setelah berada di dalam folder repositori, kompilasi program dengan perintah berikut:
+
+   ```bash
+   gcc -o MetodeRunge-Kutta MetodeRunge-Kutta.c -lm
+   ```
+
+   Perintah ini akan menghasilkan file eksekusi yang bernama `MetodeRunge-Kutta`.
+
+3. **Jalankan program**
+
+   Untuk menjalankan program, gunakan perintah berikut:
+
+   ```bash
+   ./MetodeRunge-Kutta
+   ```
+
+---
